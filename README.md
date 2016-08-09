@@ -12,11 +12,11 @@ This library converts any valid CSS string passed in to an array of all its sele
 
 ## USE
 
-```
+```html
  <script type="text/javascript" src="selectorstoarray.min.js"></script>
 ```
 
-```
+```js
 // Variable containing any valid CSS as a string
 var css = 'h1 { font-size: 10px; } .thing h4 .moo:nth-child(-2n+3) a[href*="#"] i:after { content: ""; border: 0px; width: 0px } h2 {}';
 
