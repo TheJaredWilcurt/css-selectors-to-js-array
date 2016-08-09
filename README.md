@@ -6,6 +6,10 @@ This library converts any valid CSS string passed in to an array of all its sele
 
 [Live Demo on Codepen](http://codepen.io/TheJaredWilcurt/full/grQQqV/)
 
+
+* * *
+
+
 ## USE
 
 ```
@@ -19,5 +23,14 @@ var css = 'h1 { font-size: 10px; } .thing h4 .moo:nth-child(-2n+3) a[href*="#"] 
 // Pass in any valid CSS into the selectorsToArray function
 var selectors = selectorsToArray(css);
 
+// Return an array of CSS Selectors in the order they were in the CSS file with none removed/missing
 console.log(selectors); // [ 'h1', '.thing h4 .moo:nth-child(-2n+3) a[href*="#"] i:after', 'h2' ];
 ```
+
+
+* * *
+
+
+## LICENSE
+
+Public domain homie, do with as you will.
