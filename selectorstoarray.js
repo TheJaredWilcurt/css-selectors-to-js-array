@@ -1,3 +1,5 @@
+// github.com/TheJaredWilcurt/css-selectors-to-js-array | Public Domain | v1.0.0
+
 function selectorsToArray (css) {
     // Regex to detect @media ... {
     var mediaQ = /(?:@media.*?\{)/igm;
