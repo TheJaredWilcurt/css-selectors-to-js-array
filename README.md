@@ -30,6 +30,26 @@ console.log(selectors); // [ 'h1', '.thing h4 .moo:nth-child(-2n+3) a[href*="#"]
 
 * * *
 
+## CONTRIBUTE
+
+* We definately need to do a lot more vigorous testing to make sure this library works with any valid CSS file. FILE BUGS!
+* We should probably get this registered on NPM so others can use the library and keep up to date with bug fixes.
+
+
+* * *
+
+
+## USED BY
+
+Currently this library is used by the repo it was created for:
+
+* [ITCSS: Specificity Graph](https://github.com/TheJaredWilcurt/itcss-specificity-graph)
+ 
+If you use this library in a project, let us know by filing an issue to have your link added, or doing a pull request edit of the README.
+
+
+* * *
+
 
 ## LICENSE
 
