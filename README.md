@@ -34,6 +34,7 @@ console.log(selectors); // [ 'h1', '.thing h4 .moo:nth-child(-2n+3) a[href*="#"]
 
 * We definately need to do a lot more vigorous testing to make sure this library works with any valid CSS file. FILE BUGS!
 * We should probably get this registered on NPM so others can use the library and keep up to date with bug fixes.
+* [This guy had some good ideas](https://www.reddit.com/r/learnjavascript/comments/4wsxg4/how_do_i_create_a_js_array_of_css_selectors_from/d6bs2wk?context=10000)
 
 
 * * *
